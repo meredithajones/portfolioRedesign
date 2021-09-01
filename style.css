@@ -172,8 +172,7 @@
 .hero_section {
   padding: 0 60px;
   color: white;
-  background: cornflowerblue;
-  background-image: url("images/background.png");/* background-size: 1400px; */
+  background: rgb(243, 245, 248);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -206,7 +205,6 @@
   background-color: rgba(8, 42, 118, 0.80);
   
 }
-
 
 .column_right {
   display: flex;
@@ -281,7 +279,7 @@
 /* About Section */
 .main_section{
     padding: 60px 60px;
-    background: linear-gradient( #f2f3f4 5%, #F0F8FF 15%, #4B9CD3 50%,  #000851 100%);
+    background: rgb(243, 245, 248);
     color:midnightblue;
 
 }
@@ -374,13 +372,13 @@
 
 /* Projects Styling */
 
-.projects{
+.projects {
     background:rgb(18, 91, 175);
     color: white;
     position: relative;
 }
 
-.projects_container{
+.projects_container {
     background: royalblue;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -470,8 +468,8 @@
 /* Portfolio Styling */
 
 .portfolio {
-    background: rgb(7, 38, 88);
-    color: white;
+    background: rgb(243, 245, 248);
+    color: midnightblue;
 }
 
 .portfolio_container {
@@ -552,12 +550,7 @@
 /* Contact Page Styling */
 
 .contactSection {
-   background:  
-    linear-gradient(
-      rgba(241, 244, 245, 0.80), 
-      rgba(71, 201, 224, 0.7)
-    ),
-   url("images/background.png");
+   background: rgb(243, 245, 248);
    padding-bottom: 100px;
    padding-top: 150px;
    padding-left: 30px;
@@ -637,13 +630,8 @@
 
 /* Footer Styling */
 .footer {
-    background: 
-    linear-gradient(
-      rgba(152, 223, 245, 0.45), 
-      rgba(14, 207, 233, 0.45)
-    ),
-     url("images/background.png");
-    color:rgba(243, 245, 245, 0.8);
+    background: rgb(243, 245, 248);
+    color:midnightblue;
     background-size: 100%;
 }
 
