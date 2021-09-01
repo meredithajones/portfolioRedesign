@@ -93,7 +93,6 @@
       background: rgb(9, 9, 126);
     }
     
-
 /* Dropdown Nav Menu Styling */
     .navbar_menu.active {
         background: rgb(9, 9, 126);
@@ -190,6 +189,7 @@
 }
 
 .column_left h1 {
+  margin-top: -10rem;
   font-size: 90px;
   color:#022b3a;
   border: 15px;
@@ -207,7 +207,7 @@
 }
 
 .column_right img {
-    width: 40rem;
+    width: 37rem;
 }
 
 .headline {
@@ -216,7 +216,7 @@
     align-items: center;
     justify-content: center;
     border: solid 4px whitesmoke;
-    padding: 55px;
+    padding: 10px 55px;
 }
 
 .headline p {
@@ -224,8 +224,9 @@
 }
 
 .heroButton {
-  margin-top: 60px;
-  background-color: midnightblue;
+  margin-top: 40px;
+  background-color: #25a18e;
+  border-radius: 20px;
   border-style: solid;
   border-color: white;
   border-width: 2px;
@@ -238,8 +239,8 @@
 }
 
 .heroButton:hover{
-    color:rgb(121, 238, 238);
-    background-color: rgb(13, 13, 163);
+    color:#9fffcb;
+
 }
 
 .header_image {
@@ -273,25 +274,26 @@
 
 /* About Section */
 .main_section{
-    padding: 60px 60px;
+    padding: 20px 60px;
     background: rgb(243, 245, 248);
     color:midnightblue;
 
 }
 
-.main_container{
+.main_container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    color: #004e64;
 }
 
 .main_container h1 {
     font-size: 110px;
-    color: darkcyan;
+    color: #004e64;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #191970;
-    margin-top: 32px;
+    -webkit-text-stroke-color: #004e64;
+    margin-top: 20px;
     font-family: 'Shrikhand', cursive;
 
 }
@@ -329,8 +331,35 @@
 .main_img{ 
     width:410px;
     height:475px;
-    border-radius: 75%;
+    border-radius: 80%;
 }
+
+/* .pattern {
+    position: relative;
+    background: #09F;
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+} */
+
+/* .pattern {
+    position: relative;
+    background-color: #3bb78f;
+    background-image: linear-gradient(315deg,
+                    #3bb78f 0%, #0bab64 74%);
+}
+  
+.pattern:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 215px;
+    background: url(wave.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
 
 
 /* Media Queries for About Section */
