@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Happy Trails</title>
+    <!-- Linking FontAwesome -->
+    <script src="https://use.fontawesome.com/e341d69b03.js"></script>
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="/projects/shopChef.css" />
+    <!-- Linking Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=DM+Serif+Text&family=Days+One&family=Shrikhand&family=Staatliches&display=swap"
+      rel="stylesheet"/>
+    <!-- Linking FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/9ca2398afe.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <main class="main_section">
+      <section class="projectContainer">
+        <div class="exit"><a href="/index.html#projectCards"><i id="closePage" class="fa fa-times-circle"></i></a></div>
+<header class="projectHeader">
+<div><h1 class= "title">Happy Trails</h1></div>
+    <div><p class="subtitle">A hiker's companion app</p></div></header>
+    <section class="projectDetails">
+        <div class="projectDescHeader" id=leftColumn>
+          <h3 class="descriptionHeader">
+            <i class="fas fa-grip-lines"></i>About The Project<i class="fas fa-grip-lines"></i>
+          </h3>
+      <div class="projectDesc">
+          <p class="aboutProject">
+            Happy Trails is an application created to appeal to both avid hikers, 
+            and people who want to make trail exploration a new part of their lives. 
+            <br><br>This application makes it simple to search for nearby trails, 
+            and tailor the generated list to user specified lengths for their hikes.
+            <br><br>
+            When the application loads, the user is prompted to either enable our
+            application to determine their location, or to manually enter their zip code or city.
+            Once the user location has been determined, they will be asked to enter how far they are willing to travel to 
+            reach their hiking trail, as well as how long of a hike they would like to go on. 
+            Those user inputs will inform the populating of a map with pin drops at the generated trail locations,
+            as well as a listing of the suggested trails below the map.
+          </p>
+      </div>
+  </div>
+  <div id="projectGif">
+    <img src = "gifs/happyTrails.gif" class="projectGif">
+    </div>
+    <div class="myRole" id=leftColumn>
+        <h3 class="descriptionHeader">
+            <i class="fas fa-grip-lines"></i>My Role<i
+              class="fas fa-grip-lines"></i>
+            </h3>
+            <p> I collaborated with my team member Merlin Rock to plan the layout 
+              and visual design of the application.
+              <br><br>
+              Using JQuery, I programmed the application's 
+              functionality to save and retrieve user's favorite hikes 
+              at the click of a button.
+              On click, the trails are stringified to JSON and
+              I utilized local storage to retain 
+              these user preferences.
+            </p>
+        </div>
+        <div class="tech">
+            <h3 class="descriptionHeader">
+                <i class="fas fa-grip-lines"></i>Technology Used<i
+                  class="fas fa-grip-lines"></i>
+                </h3>
+                <p> Happy Trails was styled using Bulma as well as custom css. Icons are courtesy of FontAwesome.
+                  <br><br>
+                  Our mapping functionality was implemented with the use of Mapquest's API. 
+                  <br><br>
+                  Trail Data is from Hiking Project's free API.
+                  <br><br>
+                  User's favorite hikes are saved using local storage. 
+                  <br><br>
+
+                </p>
+            </div>
+        <div class="btnWrapper">
+            <button class= "sidebtn" > 
+                   <a id="externalLink" href ="https://github.com/meredithajones/Fridge_For_All" target="_blank"><i class="fa fa-github fa-2x" id="fa-icon"
+                    aria-hidden="true" aria-label="Meredith Jones Github"></i></span></a>
+                <a id="externalLink" href = "https://fridge-for-all-philly.herokuapp.com/" target="_blank"><i class="fa fa-external-link" id="fa-icon"></i></a>
+            </div>
+    </section>
+  </section>
+</main>
+</body>
+</html>
+   
+           

@@ -1,0 +1,196 @@
+
+#closePage {
+    float: right;
+    font-size: 30px;
+    margin-top: 2px;
+    z-index: 9999;
+}
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #abe9cd;
+    background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);    
+    border-style: solid;
+    border-color: rgb(2, 2, 56);
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 10px 10px 8px 10px #888888;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    color:rgb(0, 57, 104);
+}
+
+.projectHeader {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+}
+
+h1 {
+    font-size: 80px;
+    color: darkcyan;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #d9d9e0;
+    font-family: 'Shrikhand', cursive;
+    margin-top: 0; 
+    margin-block-end: 5px;
+    /* padding-left: 20px; */
+
+}
+
+.subtitle {
+    padding-top: 10px;
+    padding-right: 20px;
+    font-size: 38px;
+    color: #f0f0f5;
+    display: flex;
+    align-items: flex-start;
+}
+
+.ffaSubtitle {
+    font-size: 38px;
+    color: #f0f0f5;
+    display: flex;
+    align-items: flex-start;
+    /* float:right; */
+
+}
+
+@media (max-width: 800px) {
+    .projectHeader{
+      grid-template-columns: 1fr;
+      padding: 10px;
+    }
+    h1 {
+        padding-right: 20px;
+    }
+
+    .subtitle{
+        padding-right: 20px;
+    }
+}
+
+.descriptionHeader {
+    font-size: 27px;
+}
+
+#leftColumn {
+    margin-left: 40px;
+}
+
+p {
+    color: rgb(0, 57, 104);
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.projectGif {
+    display:flex;
+    justify-content: center;
+    height: auto;
+    max-width: 94%;
+    border: solid;
+    border-width: 10px;
+    border-color:  #191970;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 3px;
+   
+}
+
+.leftBtn {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 150px;
+    left: 97px;
+    width: 55px;
+    border:none;
+    background:	transparent;
+    box-shadow:  1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 14px;
+    float: left;
+
+}
+
+#projectGif {
+    padding-right: 30px;
+}
+
+.projectDetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    
+}
+
+.tech {
+    margin-right: 30px;
+}
+
+@media (max-width: 800px) {
+    .projectDetails {
+      grid-template-columns: 1fr;
+      padding: 5px;
+      margin-right: 30px;
+    }
+
+    .tech {
+        margin-right: 0;
+        margin-left: 27px;
+    }
+}
+
+/* Styling side button links to Github and Deployed App */
+
+.sidebtn {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 250px;
+    right: 117px;
+    /* left: 45px; */
+    width: 55px;
+    border-radius: 20px;
+    background:	rgb(0, 57, 104);
+    box-shadow:  1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 14px;
+    z-index: 0;
+    padding: 10px;
+    float: right;
+}
+
+@media (max-width: 800px) {
+    .sidebtn {
+      width: 45px;
+      right: 50px;
+    }
+
+    #fa-icon {
+        font-size: 17px;
+    }
+}
+
+
+#externalLink {
+    color: rgb(193, 226, 226);
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    vertical-align: bottom;
+    padding: 7px;
+}
+
+#externalLink:hover {
+    color:rgb(25, 228, 228);
+    cursor: pointer;
+  }
+
+#fa-icon {
+    font-size: 20px;
+}
+
+
