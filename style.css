@@ -448,11 +448,6 @@
 
 /* Portfolio Styling */
 
-.portfolio {
-    background: rgb(243, 245, 248);
-    color: midnightblue;
-}
-
 .portfolio_container {
     padding-top: 50px;
     padding-bottom: 100px;
@@ -460,19 +455,22 @@
 }
     
 .portfolio_container h1 {
-    font-size: 110px;
-    color: rgb(150, 236, 236);
+    font-size: 90px;
+    color: #004E64;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(130, 104, 163);
+    -webkit-text-stroke-color: #004E64;
     margin-top: 32px;
     font-family: 'Shrikhand', cursive;
+    margin: 0 50px;
 }
 
 .portfolio_main h2 {
     margin-bottom: 20px;
     font-size: 30px;
-    margin-right: 50px;
+    color: #25A18E;
+    margin: 0 50px;
+
 }
 
 .portfolio_main p {
@@ -480,6 +478,8 @@
     margin-right: 50px;
     padding: 10px;
     font-size: 20px;
+    color: #25A18E;
+    margin: 0 50px;
 }
 
 .portfolio_main a {
@@ -608,75 +608,15 @@
   }
 
 
-/* Footer Styling */
-.footer {
-    background: rgb(243, 245, 248);
-    color:midnightblue;
-    background-size: 100%;
-}
-
-.footer_container {
-    padding: 30px;
-    display: grid;
-    grid-template-columns: 5fr ;
-}
-
-.footer_left {
-    display: flex;
-    flex-direction: column;
-}
-
-.footer_left h2 {
-    margin-bottom: 24px;
-
-}
-
-.footer_left p {
-    line-height: 2;
-}
-
-.footer_right {
-    justify-content: left;
- 
-}
-
-.footer_right a {
-    color:seashell;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-    .topBtn {
-        float: right;
-        margin-top: 20px;
-        bottom: 15px;
-        margin-right: 20px;
-        font-size: 40px;
-    }
-    
-    /* Styling "Back to Top to appear on hover only */
-    
-    .hide {
-        display: none;
-      }
-      
-      .topBtn:hover + .hide {
-        display: block;
-        color: rgb(17, 3, 78);
-        float: right;
-        margin-right: 0;
-        margin-bottom: 15px;
-        font-size: 20px;
-      }
-
 
 /* Project Card Styling */
 
 .columns {
         display: grid;
+        margin-left: 70px;
+        margin-right: 70px;
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));;
-        gap: 10px;
+        gap: 5px;
         grid-auto-rows: auto;
         flex-direction: row;
       }
@@ -838,24 +778,18 @@
 
 .skillHeader {
     font-size: 20px;
-    padding-bottom: 10px;
 }
 
 .skillSection {
+    margin-top: -180px;
     color: #004E64;
     font-size: 40px;
+    padding-left: 40px;
 }
-
-
-
-
-  .column-contianer {
-    display: table; /* Make the container element behave like a table */
-    width: 100%; /* Set full-width to expand the whole page */
-  }
 
   .column {
     margin-left: 20px;
+    margin-top: -80px;
     float: left;
     text-align: center;
     justify-content: center;
@@ -872,15 +806,15 @@
   }
 
   #languages {
-      padding-bottom: 38px;
+      padding-bottom: 28px;
   }
 
   #databases {
-      padding-bottom:63px;
+      padding-bottom: 54px;
   }
 
   #frameworks {
-      padding-bottom: 14px;
+      padding-bottom: 4px;
   }
   
   /* Clear floats after the columns */
@@ -897,4 +831,67 @@
       padding-bottom: 35px;
     }
   }
+
+  /* Footer Styling */
+.footer {
+    background: rgb(243, 245, 248);
+    color:midnightblue;
+    background-size: 100%;
+}
+
+.footer_container {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 5fr ;
+}
+
+.footer_left {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_left h2 {
+    margin-bottom: 24px;
+
+}
+
+.footer_left p {
+    line-height: 2;
+}
+
+.footer_right {
+    justify-content: left;
+ 
+}
+
+.footer_right a {
+    color:seashell;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+    .topBtn {
+        float: right;
+        margin-top: 20px;
+        bottom: 15px;
+        margin-right: 20px;
+        font-size: 40px;
+    }
+    
+    /* Styling "Back to Top to appear on hover only */
+    
+    .hide {
+        display: none;
+      }
+      
+      .topBtn:hover + .hide {
+        display: block;
+        color: rgb(17, 3, 78);
+        float: right;
+        margin-right: 0;
+        margin-bottom: 15px;
+        font-size: 20px;
+      }
+
 
