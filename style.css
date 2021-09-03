@@ -260,7 +260,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 100%;
-
 }
 
 .main_container {
@@ -277,7 +276,7 @@
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #004e64;
     padding-top: 20px;
-    padding-left: 40px;
+    text-align: center;
     font-family: 'Shrikhand', cursive;
 }
 
@@ -460,9 +459,10 @@
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #004E64;
-    margin-top: 32px;
+    padding-top: 10px;
     font-family: 'Shrikhand', cursive;
     margin: 0 50px;
+    text-align: center;
 }
 
 .portfolio_main h2 {
@@ -531,23 +531,23 @@
 /* Contact Page Styling */
 
 .contactSection {
-   background: rgb(243, 245, 248);
+   background: #fff;
    padding-bottom: 100px;
-   padding-top: 150px;
-   padding-left: 30px;
+   padding-top: 70px;
    font-family: 'Staatliches';
    text-transform: uppercase;
    
 }
 
 #contactHeader {
-    font-size: 110px;
-    color: rgb(150, 236, 236);
+    font-size: 90px;
+    color: #004E64;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: midnightblue;
+    -webkit-text-stroke-color: #004E64;
     font-family: 'Shrikhand', cursive;
     padding-bottom: 50px;
+    text-align: center;
 }
 
   .contactWrapper {
@@ -569,18 +569,21 @@
     font-family: 'Staatliches';
     flex:2;
     margin-left: 20px;
-    margin-right: 8rem;
+    margin-right: 10rem;
     line-height: 40px;
-    padding:50px;
-    border: solid 2px midnightblue;
+    padding-bottom: 0px;
     font-size: 20px;
-    background-color: rgba(219, 242, 245, 0.5);
     border-radius: 10px;
+    border: solid 1.5px #022b3a;
+    background-color: #9FFFCB;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
 }
 
 .contactLink {
     text-decoration: none;
-    color: midnightblue;
+    color: #022b3a;
 }
 
 .contactLink:hover {
@@ -606,7 +609,6 @@
         display: none;
       }
   }
-
 
 
 /* Project Card Styling */
@@ -877,6 +879,7 @@
         bottom: 15px;
         margin-right: 20px;
         font-size: 40px;
+        color: #022b3a;
     }
     
     /* Styling "Back to Top to appear on hover only */
