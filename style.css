@@ -864,25 +864,9 @@
 
     /* Skills Section Styling*/
 .skills {
-    color: #00a5cf;
+    color: #004e64;
 }
 
-
-.skills_left h2 {
-    margin-bottom: 24px;
-}
-
-
-.skills_right a {
-    color:seashell;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.languages{
-    line-height: 30px;
-}
 
   .column-contianer {
     display: table; /* Make the container element behave like a table */
@@ -897,9 +881,7 @@
     text-align: center;
     width: 23%;
     background: #9fffcb;
-    column-fill: #9fffcb;
     padding: 30px 10px;
-    display: table-cell;
   }
 
   #languages {
@@ -931,7 +913,6 @@
 
 .skillHeader {
     font-size: 20px;
-    padding-bottom: 10px;
     padding-top:10px;
 }
 
