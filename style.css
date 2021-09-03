@@ -8,17 +8,7 @@
   scroll-behavior: smooth;
 }
 
-@media screen
-  and (max-width: 400px)  {
-    html.body {
-        width: 100%;
-        height: 100%;
-        margin: 0px;
-        padding: 0px;
-        overflow-x: hidden;
-    }
-  }
-
+/* Navbar Styling */
 .navbar {
     background: #fff;
     display: flex;
@@ -68,6 +58,7 @@
     margin: 0 auto;
 }
 
+/* Mobile Responsiveness */
 @media screen and (max-width: 960px)  {
     .navbar_container {
         display: flex;
@@ -92,7 +83,7 @@
     }
 
     .navbar {
-      background: rgb(9, 9, 126);
+      background: #004E64;
     }
     
 /* Dropdown Nav Menu Styling */
@@ -169,7 +160,7 @@
 .hero_wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 820px;
+  grid-template-rows: 720px;
 }
 
 .column_left {
@@ -181,7 +172,6 @@
 }
 
 .column_left h1 {
-  margin-top: -10rem;
   font-size: 90px;
   color:#022b3a;
   border: 15px;
@@ -264,8 +254,8 @@
 }
 
 /* About Section */
-.main_section{
-    padding: 20px 60px;
+.main_section {
+    padding: 40px 20px 65px 65px;
     background-image: url('/images/bioBackground.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -281,12 +271,12 @@
 }
 
 .main_container h1 {
-    font-size: 80px;
+    font-size: 90px;
     color: #004e64;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #004e64;
-    margin-top: -30px;
+    padding-top: 20px;
     padding-left: 40px;
     font-family: 'Shrikhand', cursive;
 
@@ -303,7 +293,7 @@
 }
 
 .bio {
-    font-size: 20px;
+    font-size: 17px;
     margin-left:20px;
 }
 
