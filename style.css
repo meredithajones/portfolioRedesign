@@ -158,15 +158,6 @@
     }
 }
 
-
-.logo {
-    display: flex;
-    height: 85px;
-    width: 80px;
-    padding-left: -50px;
-
-}
-
 /* Hero Section Styling */
 .hero_section {
   padding: 0 60px;
@@ -220,7 +211,7 @@
 }
 
 .headline p {
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .heroButton {
@@ -290,12 +281,12 @@
 }
 
 .main_container h1 {
-    font-size: 110px;
+    font-size: 80px;
     color: #004e64;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #004e64;
-    margin-top: -45px;
+    margin-top: -30px;
     padding-left: 40px;
     font-family: 'Shrikhand', cursive;
 
@@ -337,13 +328,6 @@
     width:410px;
     height:475px;
     border-radius: 80%;
-}
-
-.pattern {
-    background-image: url('/images/bioBackground.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100%;
 }
 
 
@@ -578,7 +562,6 @@
     font-family: 'Shrikhand', cursive;
     padding-bottom: 50px;
 }
-
 
   .contactWrapper {
       display: flex;
@@ -821,7 +804,6 @@
           color: white;
           display: inline-block;
           vertical-align: bottom;
-        
       }
 
       .btn:hover {
@@ -868,6 +850,7 @@
 }
 
 
+
   .column-contianer {
     display: table; /* Make the container element behave like a table */
     width: 100%; /* Set full-width to expand the whole page */
@@ -876,12 +859,18 @@
   .column {
     margin-left: 20px;
     float: left;
-    justify-content: top;
-    align-items: top;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     width: 23%;
     background: #9fffcb;
     padding: 30px 10px;
+  }
+
+  .skillHeader .skills {
+      display: flex;
+      align-items: flex-start;
+      text-align: justify;
   }
 
   #languages {
@@ -913,6 +902,7 @@
 
 .skillHeader {
     font-size: 20px;
+    padding-bottom: 10px;
     padding-top:10px;
 }
 
