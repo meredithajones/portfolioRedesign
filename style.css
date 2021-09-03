@@ -1,8 +1,10 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@600&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'DM Serif Text', serif;
+  font-family: 'DM Serif Text', 'Martel', serif;
   scroll-behavior: smooth;
 }
 
@@ -18,7 +20,7 @@
   }
 
 .navbar {
-    background: rgb(243, 245, 248);
+    background: #fff;
     display: flex;
     height: 80px;
     justify-content: center;
@@ -95,7 +97,7 @@
     
 /* Dropdown Nav Menu Styling */
     .navbar_menu.active {
-        background: rgb(9, 9, 126);
+        background: #004E64;
         top: 100%;
         line-height: 1px;
         opacity: 1;
@@ -169,7 +171,7 @@
 .hero_section {
   padding: 0 60px;
   color: #022b3a;
-  background: rgb(243, 245, 248);
+  background: #fff;
   position: relative;
 }
 
@@ -178,7 +180,6 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 820px;
 }
-
 
 .column_left {
   display: flex;
@@ -215,7 +216,6 @@
     font-size: 60px;
     align-items: center;
     justify-content: center;
-    border: solid 4px whitesmoke;
     padding: 10px 55px;
 }
 
@@ -231,7 +231,7 @@
   border-color: white;
   border-width: 2px;
   color: whitesmoke;
-  padding: 15px 32px;
+  padding: 15px 47px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -275,8 +275,10 @@
 /* About Section */
 .main_section{
     padding: 20px 60px;
-    background: rgb(243, 245, 248);
-    color:midnightblue;
+    background-image: url('/images/bioBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
 
 }
 
@@ -293,18 +295,19 @@
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #004e64;
-    margin-top: 20px;
+    margin-top: -45px;
+    padding-left: 40px;
     font-family: 'Shrikhand', cursive;
 
 }
 
-.main_content{
+.main_content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 600px;
 }
 
-.main_text{
+.main_text {
     padding-right: 20px;
 }
 
@@ -320,7 +323,9 @@
 }
 
 .main_text p {
-    line-height: 2.3;
+    font-family: 'Martel';
+    padding-left: 20px;
+    line-height: 1.7;
 }
 
 .main_image{
@@ -332,6 +337,13 @@
     width:410px;
     height:475px;
     border-radius: 80%;
+}
+
+.pattern {
+    background-image: url('/images/bioBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
 }
 
 /* .pattern {
