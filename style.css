@@ -352,12 +352,6 @@
 
 /* Projects Styling */
 
-.projects {
-    background:rgb(18, 91, 175);
-    color: white;
-    position: relative;
-}
-
 .projects_container {
     background: royalblue;
     padding-top: 100px;
@@ -369,11 +363,6 @@
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 700px;
-}
-
-.projects_container h1{
-    font-size: 50px;
-    font-family: 'Shrikhand', cursive;
 }
 
 .projects_left {
@@ -546,7 +535,6 @@
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #004E64;
     font-family: 'Shrikhand', cursive;
-    padding-bottom: 50px;
     text-align: center;
 }
 
@@ -556,14 +544,16 @@
   }
 
   .contactImg {
-      margin-left: 40px;
-      margin-right: 30px;
+
       border-radius: 20%;
       opacity: 0.85;
-      max-height: 350px;
-      display: flex;
-      justify-content: center;
-  }
+      max-width: 350px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+}
+  
 
   .contactInfo {
     font-family: 'Staatliches';
