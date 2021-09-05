@@ -10,7 +10,7 @@
 
 /* Navbar Styling */
 .navbar {
-    background: #fff;
+    background: #C6DCDD;
     display: flex;
     height: 80px;
     justify-content: center;
@@ -558,26 +558,24 @@
   .contactInfo {
     font-family: 'Staatliches';
     flex:2;
-    margin-left: 20px;
-    margin-right: 10rem;
     line-height: 40px;
     padding-bottom: 0px;
     font-size: 20px;
     border-radius: 10px;
     border: solid 1.5px #022b3a;
-    background-color: #9FFFCB;
     justify-content: center;
     align-items: center;
     text-align: justify;
 }
 
 .contactLink {
+    margin-left: 410px;
     text-decoration: none;
     color: #022b3a;
 }
 
 .contactLink:hover {
-    color: seashell;
+    color: #25A18E;
 }
 
 @media screen and (max-width: 960px) {
