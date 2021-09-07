@@ -329,7 +329,7 @@
     .main_section {
         padding: 30px;
     }
-    
+
     .main_content {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -550,15 +550,10 @@
   }
 
   .contactImg {                             
-      border-radius: 20%;   
-      /* position: relative; */
+      border-radius: 50%;   
+      position: relative;
       opacity: 0.85;
       max-width: 325px;
-      /* display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: -25px;
-      z-index: -1; */
       width: 50%;
 }
   
@@ -566,19 +561,17 @@
   .contactInfo {
     display: flex;
     flex: 2;
-    z-index: 1;
     position: relative;
     font-family: 'Staatliches';
     line-height: 40px;
     padding-bottom: 0px;
     font-size: 20px;
     border-radius: 10px;
-    margin:  0 70px;
+    margin:  0 120px;
     border: solid 1.5px #022b3a;
-    /* justify-content: center;
+    justify-content: center;
     align-items: center;
-    text-align: justify; */
-    z-index: 1;
+    text-align: justify;
 }
 
 .contactLink {
