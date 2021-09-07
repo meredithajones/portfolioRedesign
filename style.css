@@ -872,6 +872,13 @@
     font-weight: 700;
 }
 
+/* Styling "back to top" button */
+
+    .buttonToTop {
+        float: right;
+        bottom: 0;
+    }
+
     .topBtn {
         float: right;
         margin-top: 20px;
