@@ -242,8 +242,13 @@
   .column_left h1 {
     margin-top: 60px;
     font-size: 65px;
+    color: #004E64;
     font-family: 'Shrikhand', cursive;
 
+  }
+
+  .column_right img {
+      width: 27rem;
   }
 }
 
@@ -324,17 +329,19 @@
     .main_section {
         padding: 30px;
     }
+    
     .main_content {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
 
-    .main_image{
+    .main_image {
         margin-top: 40px;
     }
 
     .main_container h1{
-        font-size: 55px;
+        font-size: 65px;
+        color: #004E64;
         font-family: 'Shrikhand', cursive;
     }
 }
