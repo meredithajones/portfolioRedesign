@@ -167,7 +167,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* justify-content: space-evenly; */
+  margin-left: 70px;
   align-items: flex-start;
 }
 
@@ -201,7 +201,7 @@
 }
 
 .headline p {
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .heroButton {
@@ -326,8 +326,15 @@
 /* Media Queries for About Section */
 
 @media screen and (max-width: 1000px) {
+   
+   .main_container {
+       display: flex;
+       flex-direction: column;
+   }
+
     .main_section {
         padding: 30px;
+        background-image: none;
     }
 
     .main_content {
@@ -335,14 +342,27 @@
         grid-template-rows: 1fr;
     }
 
-    .main_image {
+    .main_image img {
         margin-top: 40px;
+        border-radius: 50%;
+        width:310px;
+        height:375px;
+    
     }
 
-    .main_container h1{
+    .main_container h1 {
         font-size: 65px;
         color: #004E64;
         font-family: 'Shrikhand', cursive;
+    }
+    .skill_h2 {
+        margin-top: 150pt;
+        margin-bottom: 20pt;
+    }
+
+    .column {
+        margin-bottom: 140px;
+        margin-left: 40px;
     }
 }
 
@@ -353,8 +373,10 @@
 
     .main_img{
         width:100%;
-        height:100%
+        height:100%;
     }
+
+   
 }
 
 /* Projects Styling */
@@ -432,7 +454,7 @@
     padding: 0 24px;
 }
 
-.projects_content{
+.projects_content {
     margin-top: 40px;
 }
 
@@ -572,6 +594,7 @@
     justify-content: center;
     align-items: center;
     text-align: justify;
+    padding-bottom: 17px;
 }
 
 .contactLink {
@@ -893,10 +916,14 @@
     .hide {
         display: none;
       }
+
+      .topBtn:hover {
+          color: #25A18E;
+      }
       
       .topBtn:hover + .hide {
         display: block;
-        color: rgb(17, 3, 78);
+        color: #25A18E;
         float: right;
         margin-right: 0;
         margin-bottom: 15px;
