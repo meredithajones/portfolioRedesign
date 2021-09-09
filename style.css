@@ -378,20 +378,12 @@
    
 }
 
-/* Projects Styling */
 
 
-.projects_description p {
-    line-height: 2;
-}
+
 
  /* Projects Media Queries */
 
-@media screen and (max-width: 768px) {
-    .projects_grid {
-        grid-template-columns: 1fr;
-    }
-}
     
 @media screen and (max-width: 468px) {
     .projects_container {
@@ -440,24 +432,22 @@
     padding-top: 10px;
     font-family: 'Shrikhand', cursive;
     margin: 0 50px;
-    text-align: center;
 }
 
 .portfolio_main h2 {
     margin-bottom: 20px;
     font-size: 30px;
-    color: #25A18E;
+    color: #004E64;
     margin: 0 50px;
 
 }
 
 .portfolio_main p {
     line-height: 1.5;
-    margin-right: 50px;
     padding: 10px;
     font-size: 20px;
-    color: #25A18E;
-    margin: 0 50px;
+    color: #004E64;
+    margin: 0 41px;
 }
 
 .portfolio_main a {
@@ -523,7 +513,7 @@
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #004E64;
     font-family: 'Shrikhand', cursive;
-    text-align: center;
+    margin: 0 115px;
 }
 
   .contactWrapper {
