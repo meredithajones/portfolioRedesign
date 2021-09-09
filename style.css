@@ -381,39 +381,6 @@
 /* Projects Styling */
 
 
-.projects_grid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-template-rows: 700px;
-}
-
-.projects_left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    padding: 0 50px;
-}
-
-.project_img {
-    height: 120px;
-}
-
-.projects_content {
-    display: flex;
-    align-items: flex-start;
-}
-
-.projects_content img {
-    margin-right: 50px;
-}
-
-.projects_description h2 {
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-    margin-right: 120px;
-}
-
 .projects_description p {
     line-height: 2;
 }
