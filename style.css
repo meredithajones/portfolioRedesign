@@ -280,8 +280,7 @@
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #004e64;
-    padding-top: 20px;
-    text-align: center;
+    padding: 20px 0;
     font-family: 'Shrikhand', cursive;
 }
 
@@ -346,7 +345,7 @@
         margin-top: 40px;
         border-radius: 50%;
         width:310px;
-        height:375px;
+        height:360px;
     
     }
 
@@ -381,12 +380,6 @@
 
 /* Projects Styling */
 
-.projects_container {
-    background: royalblue;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-left: 60px;
-}
 
 .projects_grid {
     display: grid;
