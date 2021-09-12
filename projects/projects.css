@@ -12,11 +12,11 @@
     justify-content: flex-start;
     border-style: solid;
     border-color: rgb(2, 2, 56);
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
     box-shadow: 10px 10px 8px 10px #888888;
     padding: 20px;
-    background-color: rgb(142, 210, 210);
+    background-color: #fff;
 }
 
 .projectHeader {
@@ -32,16 +32,16 @@
     flex:40%;
     margin-top: 70px;
     font-size: 40px;
-    color: #191970;
+    color: #004E64;
     margin-left: 20px;
 }
 
 h1 {
     font-size: 70px;
-    color: darkcyan;
+    color: #004E64;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #191970;
+    -webkit-text-stroke-color: #004E64;
     font-family: 'Shrikhand', cursive;
     margin-bottom: 2px;  
 }
@@ -71,7 +71,7 @@ h1 {
     max-width: 94%;
     border: solid;
     border-width: 10px;
-    border-color:  #191970;
+    border-color:  #004E64;
     border-radius: 10px;
     padding: 5px;
     margin-bottom: 3px;
@@ -99,14 +99,14 @@ h1 {
 
 .descriptionHeader {
     font-size: 27px;
-    color: #191970;
+    color: #004E64;
     padding: 5px;
 }
 
 
 p {
     font-size: 20px;
-    color: #191970;
+    color: #004E64;
     padding: 20px;
 }
 
