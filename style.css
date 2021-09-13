@@ -329,6 +329,8 @@
    .main_container {
        display: flex;
        flex-direction: column;
+       align-items: center;
+       justify-content: center;
    }
 
     .main_section {
@@ -377,8 +379,6 @@
 
    
 }
-
-
 
 
 
@@ -459,7 +459,10 @@
 /* Portfolio Media Queries */
 @media screen and (max-width: 1368px){
     .portfolio_projects {
-        flex-direction: column;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
     }
 }
 
@@ -518,6 +521,8 @@
   .contactWrapper {
       display: flex;
       flex-direction: row;
+      justify-content: center;
+      align-items: center;
   }
 
   .contactImg {                             
@@ -565,6 +570,7 @@
     .contactWrapper {
       display: flex;
       flex-direction: column;
+      flex-wrap: nowrap;
     }
 
     #email {
@@ -574,10 +580,20 @@
     #contactHeader {
         font-size: 65px;
         padding-left: 20px;
+        margin-bottom: 300px;
     }
 
     .contactImg {
         display: none;
+      }
+
+      .contactLinks {
+          font-size: 14px;
+          align-items: center;
+          justify-content: center;
+          justify-items: center;
+          text-align: start;
+          line-height: 3px;
       }
   }
 
