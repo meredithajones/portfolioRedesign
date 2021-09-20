@@ -756,14 +756,12 @@
 
 @media screen and (max-width: 600px) {
 
-
-
   .contactInfo {
       border: none;
   }  
-  
+
   #email {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   #contactHeader {
@@ -783,7 +781,13 @@
     align-items: flex-start;
     text-align: left;
     margin-right: 400px;
+    margin-top: 20px;
     border: none;
+  }
+
+  .contactLinks i {
+    font-size: 44px;
+    padding-right: 20px;
   }
 }
 
