@@ -672,21 +672,6 @@
   color: rgb(78, 106, 113);
 }
 
-/* @media screen and (max-width: 400px) {
-
-        #projectP  {
-            font-size: 12px;
-        }
-
-        #projectPage {
-            color: white;
-            padding: 50px;
-            padding-bottom: 30px !important;
-            font-size:13px;
-            text-decoration: none;
-    
-        }
- } */
 
 /* Projects Media Queries */
 
@@ -695,25 +680,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    margin-left: 15px;
     padding: 0;
   }
 
-  .projects_container h1 {
-    text-align: center;
-    margin-bottom: 170px;
-  }
-
-  .projects_left {
-    padding: 0 24px;
-  }
-
-  .projects_content {
-    margin-top: 40px;
-  }
-
-  .projects_content img {
-    margin-right: 16px;
-  }
 }
 
 /* Contact Page Styling */
@@ -782,20 +754,22 @@
   color: #25a18e;
 }
 
-@media screen and (max-width: 960px) {
-  .contactSection {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
+@media screen and (max-width: 600px) {
 
+
+
+  .contactInfo {
+      border: none;
+  }  
+  
   #email {
     font-size: 18px;
   }
 
   #contactHeader {
-    font-size: 65px;
-    padding-left: 20px;
+    font-size: 70px;
+    padding-left: 10px;
+    margin-top: -100px;
     margin-bottom: 300px;
   }
 
@@ -803,13 +777,13 @@
     display: none;
   }
 
-  .contactLinks {
-    font-size: 14px;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    text-align: start;
-    line-height: 3px;
+  .contactLinks h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-right: 400px;
+    border: none;
   }
 }
 
