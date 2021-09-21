@@ -536,8 +536,8 @@
     margin-right: 60px;
   }
 
-  .project_container {
-    margin-right: 60px;
+  .project_card {
+    margin-right: 660px;
   }
 }
 
@@ -686,6 +686,23 @@
 /* Projects Media Queries */
 
 @media screen and (max-width: 600px) {
+  .portfolio {
+    padding: 5px 0px;
+    margin-top: -140px;
+  }
+
+  .portfolio_main h2 {
+    padding-bottom: 20px;
+  }
+
+  .portfolio_main p {
+    margin-right: 60px;
+  }
+
+  .project_card {
+    margin-right: 660px;
+  }
+}
   .project_container {
     display: flex;
     flex-direction: column;
@@ -696,7 +713,34 @@
     padding: 0;
   }
 
-}
+  
+
+  @media screen and (max-width: 600px) {
+    .portfolio {
+      padding: 5px 0px;
+      margin-top: -140px;
+    }
+  
+    .portfolio_container h1 {
+      font-size: 70px;
+      display: flex;
+      margin-bottom: 40px;
+      margin-left: -4px;
+      flex-direction: column;
+      justify-content: center;
+      line-height: 70px;
+    }
+  
+    .portfolio_main h2 {
+      padding-bottom: 20px;
+    }
+  
+    .portfolio_main p {
+      margin-right: 80px;
+    }
+  
+  }
+
 
 /* Contact Page Styling */
 
@@ -775,10 +819,11 @@
   }
 
   #contactHeader {
-    font-size: 70px;
-    padding-left: 10px;
+    font-size: 64px;
     margin-top: -100px;
     margin-bottom: 300px;
+    margin-left: 70px;
+    text-align: left;
   }
 
   .contactImg {
