@@ -824,7 +824,14 @@
       color: rgb(78, 106, 113);
     }
     
+  }
+/* Fixing projects on mobile  */
+  @media screen and (min-width: 0px) and (max-width: 400px) {
+    #my-content { display: block; }  /* show it on small screens */
+  }
   
+  @media screen and (min-width: 401px) and (max-width: 1024px) {
+    #my-content { display: none; }   /* hide it elsewhere */
   }
 
 /* Contact Page Styling */
