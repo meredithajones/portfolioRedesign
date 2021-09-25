@@ -754,8 +754,6 @@
       margin-right: 70px;
       margin-left: 17px;
     }
-
-
     
   }
 
@@ -770,6 +768,7 @@
   .mobileButton { 
       display: flex;
       margin-top: 48rem;
+      text-align: center;
     } 
   }
   
