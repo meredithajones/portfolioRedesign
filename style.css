@@ -693,6 +693,10 @@
   background-color: rgba(78, 106, 113, 0.85);
 }
 
+#mobileButton {
+  text-decoration: none;
+}
+
 
 /* Projects Media Queries */
 
@@ -844,7 +848,7 @@
    }
 
 /* Fixing projects on mobile  */
-@media screen and (min-width: 0px) and (max-width: 300px) {
+@media screen and (min-width: 0px) and (max-width: 400px) {
   .mobileButton { 
       display: flex;
       margin-top: 48rem;
