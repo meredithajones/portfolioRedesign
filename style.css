@@ -693,7 +693,7 @@
   background-color: rgba(78, 106, 113, 0.85);
 }
 
-#mobileButton {
+#mobileBtn {
   text-decoration: none;
 }
 
@@ -766,7 +766,7 @@
 /* Fixing projects on mobile  */
 @media screen and (min-width: 0px) and (max-width: 450px) {
   .mobileButton { 
-      display: flex;
+      display: inline-block;
       margin-top: 48rem;
       text-align: center;
     } 
